@@ -1,0 +1,13 @@
+# This file is the only file that should be changed when using this pacakage. 
+# Change parameters to your prefrence
+
+# SONAR PARAMETERS ---------------------------------------------------------------------------------------------------------------------------------
+sonar_driver_gain: 12 # Amplification of signal
+sonar_driver_sos: 1500 # Speed of sound in environment
+sonar_driver_range: 1 # Scan range in meters for the sonar 
+#---------------------------------------------------------------------------------------------------------------------------------------------------
+
+# TOPICS -------------------------------------------------------------------------------------------------------------------------------------------
+sonar_driver_pub_topic: "/manta/sonar/raw" # Topic to publish the data
+#---------------------------------------------------------------------------------------------------------------------------------------------------
+

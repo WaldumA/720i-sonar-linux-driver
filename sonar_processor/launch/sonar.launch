@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+  <include file="$(find sonar_driver)/launch/sonar_driver.launch"/>
+  <include file="$(find sonar_processor)/launch/sonar_processor.launch"/>
+</launch>	

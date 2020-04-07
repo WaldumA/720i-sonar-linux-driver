@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+    <!--Loads the necesarry parameters to rosparam-->
+    <rosparam file="$(find sonar_driver)/config/config.yaml"/>
+    <!--Launch mapping node-->
+    <node pkg="sonar_driver" type="sonar_driver_node" name="sonar_driver_node" output="screen"/>
+
+</launch>
