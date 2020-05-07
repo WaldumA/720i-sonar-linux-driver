@@ -35,7 +35,7 @@ public:
         
 
         // Initiate publisher
-        sonar_data_pub = nh.advertise<sonar_msgs::sonar_raw_data>(pub_topic,100);
+        sonar_data_pub = nh.advertise<sonar_msgs::sonar_raw_data>(pub_topic,1000);
 
         // Run driver
         run();

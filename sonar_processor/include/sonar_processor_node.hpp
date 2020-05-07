@@ -45,7 +45,7 @@ class sonarProcessor{
         nh.getParam("sonar_processor_pub_topic",pub_topic);
 
         // Initiate subscribers
-        sonar_raw_data_sub = nh.subscribe(sub_topic,100,&sonarProcessor::sonarCallback, this);
+        sonar_raw_data_sub = nh.subscribe(sub_topic,1000,&sonarProcessor::sonarCallback, this);
         // Initiate publisher
         sonar_data_pub = nh.advertise<sonar_msgs::sonar_processed_data>(pub_topic,100);
     }

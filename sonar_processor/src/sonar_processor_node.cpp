@@ -48,9 +48,11 @@ void visualisingTest(MatrixXi sonarData, rangeAndAngle rangeAndAngles, int num_b
     eigen2cv(tmp_raw_image,tmp_raw_cv_image);
     tmp_raw_cv_image.convertTo(tmp_raw_cv_image_gray, CV_8U);
 
-    namedWindow("Processed data", cv::WINDOW_AUTOSIZE);
+    namedWindow("Processed data", 0);
+    resizeWindow("Processed data", 1200, 1200);
     imshow("Processed data", tmp_processed_cv_image_gray);
-    namedWindow("Raw data", cv::WINDOW_AUTOSIZE);
+    namedWindow("Raw data", 0);
+    resizeWindow("Raw data", 1200, 1200);
     imshow("Raw data", tmp_raw_cv_image_gray);
     waitKey(5);
 }

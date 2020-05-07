@@ -127,7 +127,7 @@ void sonarDriver::run() {
                 time_to_update = false;
             }
             
-            usleep(1000);
+            usleep(100000);
         }
     }
     

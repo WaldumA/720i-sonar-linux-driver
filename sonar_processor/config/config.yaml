@@ -2,7 +2,7 @@
 # Change parameters to your prefrence
 
 # TOPICS -------------------------------------------------------------------------------------------------------------------------------------------
-sonar_processor_sub_topic: "/manta/sonar" # Subscribe to topic with sonar_data_raw.msg format
+sonar_processor_sub_topic: "/manta/sonar/raw" # Subscribe to topic with sonar_data_raw.msg format
 sonar_processor_pub_topic: "manta/sonar/processed" # Topic to publish to
 #---------------------------------------------------------------------------------------------------------------------------------------------------
 

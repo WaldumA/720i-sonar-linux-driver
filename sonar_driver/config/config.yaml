@@ -2,9 +2,9 @@
 # Change parameters to your prefrence
 
 # SONAR PARAMETERS ---------------------------------------------------------------------------------------------------------------------------------
-sonar_driver_gain: 12 # Amplification of signal
+sonar_driver_gain: 20 # Amplification of signal
 sonar_driver_sos: 1500 # Speed of sound in environment
-sonar_driver_range: 1 # Scan range in meters for the sonar 
+sonar_driver_range: 4 # Scan range in meters for the sonar 
 #---------------------------------------------------------------------------------------------------------------------------------------------------
 
 # TOPICS -------------------------------------------------------------------------------------------------------------------------------------------
