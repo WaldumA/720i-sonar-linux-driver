@@ -2,3 +2,5 @@
 
 float32[] angles # Angles given in radians from centre of AUV
 float32[] range # Range to first most powerfull bin over a threshold
+float32[] thresholdAngles # Thresholded angles
+float32[] thresholdRange # Thresholded ranges 

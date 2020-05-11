@@ -21,6 +21,12 @@ struct binAndIntensity {
     vector<int> intensity;
 };
 
+struct binBeamAndIntensity {
+    vector<int> num_bin;
+    vector<int> num_beam;
+    vector<int> intensity;
+};
+
 struct rangeAndAngle {
     vector<float> range;
     vector<float> angle;
